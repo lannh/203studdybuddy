@@ -1,0 +1,29 @@
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+    height: 100%;
+}
+
+main{
+    height: 100%;
+}
+
+.mat-sidenav {
+    width: 350px;
+}
+
+.mat-sidenav-content{
+    background-color: #E5E4DF;
+}
+
+.mat-sidenav {
+    background-color: #E5E4DF;
+}
+
+.sticky{
+    width: 100%;
+    top: 0;  
+    z-index: 10;
+    background:inherit;
+
+    position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+}
